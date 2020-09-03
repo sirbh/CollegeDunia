@@ -1,0 +1,77 @@
+.Footer
+{
+    width: 637.3px;
+    box-sizing: border-box;
+    height: 145px;
+    background-color: white;
+    box-shadow: 1px 1px 3px #ececec , -1px -1px 2px #ececec;
+    padding-top:2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .Left
+    {
+
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        h3{
+            font-size: 18.5px;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+
+        p{
+            font-size: 13px;
+            font-weight: 500;
+            margin-left: 12px;
+            margin-top: 10px;
+            margin-bottom: 7px;
+            span{
+                color:teal;
+            }
+        }
+    }
+ }
+
+ .Rating
+ {
+     display: inline-block;
+     margin-left: 13px;
+ }
+
+ .holder{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .Right
+ {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content:space-between;
+    width: 30%;
+    margin-right: 15px;
+
+    h2{
+        margin-top: -5px;
+        color:#dd1c26;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+ }
+
+ .Tag{
+     p{
+         display: inline;
+     }
+ }

@@ -1,0 +1,31 @@
+.content:before {
+    content: " "; 
+      display: block; 
+      width: 0; 
+      height: 0;
+      border-top: 11px solid transparent;
+      border-bottom: 9px solid transparent;
+      border-right: 13px solid #dd1c26;;
+      position: absolute;
+      top: 50%;
+      margin-top: -10px; 
+      right: 100%;
+      z-index: 2; 
+  }
+  
+  .content {
+    background-color: #dd1c26;;
+      color: white;
+      text-decoration: none; 
+    text-transform: uppercase;
+      padding: 1px 10px 8px 1px;
+      background: #dd1c26;
+      position: relative; 
+      display: block;
+      float: left;
+    position:relative;
+    font-size: 13px;
+    height: 11px;
+  }
+  
+  

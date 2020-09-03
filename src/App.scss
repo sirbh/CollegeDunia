@@ -1,6 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
+
+.MainClass{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 98vw;
+  padding-top: 100px; 
+  box-sizing: border-box;
+}
+
+.Card
+{
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+
 
 .App-logo {
   height: 40vmin;
