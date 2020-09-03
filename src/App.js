@@ -3,6 +3,7 @@ import "./App.scss";
 import axios from "axios";
 import Header from "../src/Components/Header/Header";
 import Footer from "../src/Components/Footer/Footer";
+import file from '../src/Assets/colleges.jsonn'
 
 function App() {
   const [collegeList, setCollegeList] = useState([]);
@@ -13,7 +14,7 @@ function App() {
   useEffect(() => {
     axios({
       method: "GET",
-      url: "/colleges.json",
+      url: file,
     })
       .then((resp) => {
         const temp = [...resp.data.colleges.slice((page - 1) * 10, page * 10)];
