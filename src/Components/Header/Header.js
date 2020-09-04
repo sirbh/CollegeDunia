@@ -44,7 +44,6 @@ text-align:center;
 `
 
 export default function Header(props) {
-    console.log(props)
   return (
     <Div id = {props.id}>
         {props.promoted?<Promoted></Promoted>:null}

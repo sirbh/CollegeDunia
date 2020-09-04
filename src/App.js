@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
 import "./App.scss";
 import axios from "axios";
+import data from '../src/Assets/colleges.json'
 import Header from "../src/Components/Header/Header";
 import Footer from "../src/Components/Footer/Footer";
 
@@ -11,19 +12,12 @@ function App() {
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {
-    axios({
-      method: "GET",
-      url: '/colleges.json',
-    })
-      .then((resp) => {
-        const temp = [...resp.data.colleges.slice((page - 1) * 10, page * 10)];
+         
+        const temp = [...data.colleges.slice((page - 1) * 10, page * 10)];
         if (temp.length === 0) setHasMore(false);
         else setCollegeList((prev) => [...prev, ...temp]);
-      })
-      .catch((e) => {
-        setError(true);
-      });
-  }, [page]);
+      }
+  , [page]);
 
   const ref = useRef();
   const lastBookElementRef = useCallback(
