@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CollegeDunia/static/css/main.75d9b166.chunk.css",
-    "main.js": "/CollegeDunia/static/js/main.5935874f.chunk.js",
-    "main.js.map": "/CollegeDunia/static/js/main.5935874f.chunk.js.map",
+    "main.js": "/CollegeDunia/static/js/main.085e8691.chunk.js",
+    "main.js.map": "/CollegeDunia/static/js/main.085e8691.chunk.js.map",
     "runtime-main.js": "/CollegeDunia/static/js/runtime-main.6be0e371.js",
     "runtime-main.js.map": "/CollegeDunia/static/js/runtime-main.6be0e371.js.map",
     "static/js/2.fb1c8e89.chunk.js": "/CollegeDunia/static/js/2.fb1c8e89.chunk.js",
     "static/js/2.fb1c8e89.chunk.js.map": "/CollegeDunia/static/js/2.fb1c8e89.chunk.js.map",
     "index.html": "/CollegeDunia/index.html",
-    "precache-manifest.94f3fd9dbb5fb0d9ff6fde1c42c4217a.js": "/CollegeDunia/precache-manifest.94f3fd9dbb5fb0d9ff6fde1c42c4217a.js",
+    "precache-manifest.14a9bba037e39361c8f48a076d7ee0fa.js": "/CollegeDunia/precache-manifest.14a9bba037e39361c8f48a076d7ee0fa.js",
     "service-worker.js": "/CollegeDunia/service-worker.js",
     "static/css/main.75d9b166.chunk.css.map": "/CollegeDunia/static/css/main.75d9b166.chunk.css.map",
     "static/js/2.fb1c8e89.chunk.js.LICENSE.txt": "/CollegeDunia/static/js/2.fb1c8e89.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6be0e371.js",
     "static/js/2.fb1c8e89.chunk.js",
     "static/css/main.75d9b166.chunk.css",
-    "static/js/main.5935874f.chunk.js"
+    "static/js/main.085e8691.chunk.js"
   ]
 }
