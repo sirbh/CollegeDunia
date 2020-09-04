@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e416f1c745732e2358e7fc445e8b5c6d",
+    "revision": "627f5123f588cb934eb8828796a6f74c",
     "url": "/CollegeDunia/index.html"
   },
   {
-    "revision": "a4e561ff8b42318d4767",
+    "revision": "2223b8c1738c8f4beaf1",
     "url": "/CollegeDunia/static/css/main.5b9178cc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CollegeDunia/static/js/2.fb1c8e89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4e561ff8b42318d4767",
-    "url": "/CollegeDunia/static/js/main.ef7a449e.chunk.js"
+    "revision": "2223b8c1738c8f4beaf1",
+    "url": "/CollegeDunia/static/js/main.927e1ed9.chunk.js"
   },
   {
     "revision": "13e4453b055f463b8555",
