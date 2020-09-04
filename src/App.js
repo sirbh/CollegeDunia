@@ -36,6 +36,7 @@ function App() {
 
   return (
     <>
+     <h3 style={{fontSize:18,color:'#444444',position:'absolute',top:49, left:80,fontWeight: 400}}>Colleges of North India</h3>
      <div className = 'MainClass'>
      {collegeList.map((College, id) => {
         if (collegeList.length === id + 1) {
